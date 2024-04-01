@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Love Test</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 28px;
+    color: #333333;
+  }
+
+  .options {
+    margin-top: 20px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+  }
+
+  .btn-yes {
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+  }
+
+  .btn-no {
+    background-color: #f44336;
+    color: #ffffff;
+    border: none;
+  }
+</style>
+<link rel="stylesheet" href="style.css"
+</head>
+<body>
+<div class="container">
+  <h1>Kamuu sayaang aku gaa?</h1>
+  <div class="options">
+    <button class="btn btn-yes" onclick="answer('yes')">Iyaa sayaang banget</button>
+    <button class="btn btn-no" onclick="answer('no')">ga siapa elu</button>
+  </div>
+</div>
+
+<script>
+function answer(response) {
+  if (response === 'yes') {
+    alert('AKUU JUGAA SAYAANG BANGET SAMAA KAMUU❤️');
+  } else if (response === 'no') {
+    alert('SAYANG ATAU HP KAMU AKU RETAS😔');
+  }
+}
+</script>
+</body>
+</html>
